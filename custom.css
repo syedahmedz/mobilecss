@@ -196,7 +196,7 @@ img.eater {
 /*Really big screens 20, 22, 24 inch*/
 @media (min-width: 1600px) {
 #text-2.homepage-widget {
-  background: #fff;
+  background: #ffff;
   max-width: 100%;
   padding: 70px 400px 70px 400px;
 }
