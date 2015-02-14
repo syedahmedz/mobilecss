@@ -1,0 +1,215 @@
+/*************** BEGIN FONT CHANGES ***************//
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  clear: both;
+  font-family: 'Roboto', sans-serif;
+  line-height: 1.3;
+}
+
+p {
+  clear: both;
+  font-family: 'Roboto', sans-serif;
+  line-height: 1.3;
+}
+
+label {
+  font: bold 14px/normal 'Roboto', sans-serif;
+  text-transform: none;
+}
+
+button, html, input, select, textarea {
+  font-family: 'Roboto', sans-serif;
+}
+
+.page-subtitle {
+  font: normal 14px/normal 'Roboto', sans-serif;
+  color: #9a9b9e;
+  margin-top: -15px;
+}
+
+.paginate-links .page-numbers {
+  font: normal 13px/normal 'Roboto', sans-serif;
+}
+
+
+.site-title {
+  font: bold 22px/normal 'Roboto', sans-serif;
+}
+
+.copyright {
+  font: bold 12px/normal 'Roboto', sans-serif;
+}
+  
+.single_job_listing .application .apply-with-linkedin {
+  font: bold 15px/normal 'Roboto', sans-serif;
+  text-transform: uppercase;
+  background-color: #f08d3c;
+  padding: 15px 50px;
+  display: inline-block;
+}
+
+.application_button, .job_listing a.view-video,
+.resume a.view-video,
+.resume_contact_button,
+.job-tag,
+.single_job_listing .application .apply-with-linkedin {
+  font: bold 15px/normal 'Roboto', sans-serif;
+  text-transform: uppercase;
+  background-color: #f08d3c;
+  padding: 15px 50px;
+  display: inline-block;
+}
+
+.search_jobs .filter_by_tag a {
+  font: bold 12px/normal 'Roboto', sans-serif !important;
+}
+
+input[type="submit"] {
+  font: 500 18px 'Roboto', sans-serif;
+}
+
+.nav-menu-primary li a, .nav-menu-primary ul li a {
+    font: 700 14px 'Roboto', sans-serif;
+}
+
+/*************** END FONT CHANGES ***************/
+
+@media (min-width: 992px) {
+
+.gb_widget_slider_hero .soliloquy-container .soliloquy-caption-title
+{
+font-size: 55px;
+font-weight: 300;
+text-align: center;
+position: relative;
+margin-top: -200px;
+font-family: 'Roboto', sans-serif;  
+}
+
+.gb_widget_slider_hero .soliloquy-container .soliloquy-caption p {
+ max-width: 100%;
+line-height: 36px;
+font-size: 28px;
+font-weight: 100;
+position: relative;
+font-family: 'Roboto', sans-serif;  
+}
+}
+
+.search_jobs > div input[type="submit"], .search_resumes > div input[type="submit"] {
+    font-family: 'Roboto'
+    font-weight: 500;
+}
+
+/*This modifies the h2 text's font, color, and size*/
+h2.roboto {
+  color: #2b2b2b;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+  font-size: 55px;
+  margin-top: 40px;  
+}
+
+/*This modifies the p text's font, color, and size*/
+p.roboto {
+  color: #2b2b2b;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 100;
+  font-size: 24px;
+}
+
+/*Adjusts the placement of the pictures in the sections*/
+img.pictureadjust {
+  margin-top: 40px;
+}
+
+/*This controls the section font for dark sections*/
+h2.robotolight {
+  color: #fff;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+  font-size:55px;
+  margin-top: 40px;
+}
+
+p.robotolight {
+  color: #fff;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 100;
+  font-size:24px;  
+}
+
+/*Show white boxes around menu items on 1024px+ width*/
+@media (min-width:1280px) {
+.boxmenu {
+  border: 2px solid #FFF;
+  border-radius: 4px;
+  display: inline-block;
+}
+}
+
+/*This will eat the image, currently not being used*/
+img.eater {
+  float: right;  
+}
+
+/*Mobile color css for sections*/
+@media (max-width:768px) {
+#text-3.homepage-widget.widget_text {
+  color: #2b2b2b;
+  background: #60dea1;
+  max-width: 100%;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+}
+
+/*Desktop color css for sections*/
+@media (min-width: 992px) {
+#text-2.homepage-widget {
+  background: #fff;
+  max-width: 100%;
+  padding: 70px 150px 70px 150px;
+}
+}
+
+@media (min-width: 992px) {
+#text-3.homepage-widget {
+  background: #60dea1;
+  max-width: 100%;
+  padding: 70px 150px 70px 150px;
+}
+}
+
+@media (min-width: 992px) {
+#text-4.homepage-widget {
+  background: #fff;
+  max-width: 100%;
+  padding: 70px 150px 70px 150px;
+}
+}
+
+/*Really big screens 20, 22, 24 inch*/
+@media (min-width: 1600px) {
+#text-2.homepage-widget {
+  background: #fff;
+  max-width: 100%;
+  padding: 70px 400px 70px 400px;
+}
+
+#text-3.homepage-widget {
+  background: #60dea1;
+  max-width: 100%;
+  padding: 70px 400px 70px 400px;
+}
+
+#text-4.homepage-widget {
+  background: #fff;
+  max-width: 100%;
+  padding: 70px 400px 70px 400px;
+}
+}
