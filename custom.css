@@ -168,7 +168,7 @@ img.eater {
 }
 }
 
-/*Desktop color css for sections*/
+/*Desktop color css for sections, full size responsive containers*/
 @media (min-width: 992px) {
 #text-2.homepage-widget {
   background: #fff;
