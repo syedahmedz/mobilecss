@@ -1,17 +1,125 @@
-/*************** BEGIN FONT CHANGES ***************//
+/* Enter Your Custom CSS Here */
+
+/**trending skills widget**/
+
+div.trendingcont
+{
+  padding-bottom: 40px;
+}
+
+div.redhl{
+  color: red; 
+}
+
+/*Talent Profile Resume Contact Button*/
+div.resume_contact .resume_contact_button{
+ background-color: #4CC856; 
+}
+div a.job-tag{
+ background-color:gray; 
+}
+
+/**Clear spacer for text spacing**/
+div.spacer {
+  clear:both;
+  padding-bottom:60 px;
+}
+
+
+/* Change font size on a mobile candidate sign up form */
+@media (max-width: 740px) {
+#gform_10,
+#gform_7,
+#gform_3,
+#gform_5,
+#gform_12,
+#gform_4,
+#gform_9,
+#gform_13,
+#gform_14{
+    font-size: 16px;
+}
+
+}
+
+/* CSS for the resume buttons under each candidate*/
+div.job-applications ul.job-applications li.job-application footer ul.actions {
+  padding-bottom: 10px;  
+}
+
+div.job-applications ul.job-applications li.job-application footer ul.actions li {
+  border-left: 0px solid #EEE;
+}
+  
+div.job-applications ul.job-applications li.job-application footer ul.actions li a {
+  height: 0;
+  overflow: hidden;
+  padding: 1em 3.8em 1em;
+  float: left;
+  position: relative;
+  text-decoration: none;
+}
+
+
+@media (min-width: 1024px) {
+div.job-applications ul.job-applications li.job-application footer ul.actions li a {
+  height: 0;
+  overflow: hidden;
+  padding: 1em 3.8em 1em;
+  float: left;
+  position: relative;
+  text-decoration: none;
+  width:100%;
+}
+}
+
+/*ID to center text*/
+#centertext {
+  text-align: center;  
+}
+
+/*CSS for top 3 skills*/
+div .top-skills-resume {
+  font-size: 13px;
+  color: #fff;
+  padding: 8px 15px;
+  margin: 0 8px 8px 0;
+  border-radius: 5px;
+  display: inline-block;
+  background: #E86A6E;
+}
+
+/*Modifications to job-tags css*/
+job-tag {
+  font-size: 12px;
+  font-weight: 400px;
+}
+
+/*This fixes the pop up message that appears when someone tries to apply without logging in*/
+.mustlogin {
+position: relative;
+background: #fafafa;
+width: auto;
+max-width: 500px;
+margin: 20px auto;
+padding: 30px;
+border-radius: 6px;
+}
+
+/*************** BEGIN FONT CHANGES ***************/
 h1,
 h2,
 h3,
 h4,
 h5,
 h6 {
-  clear: both;
+
   font-family: 'Roboto', sans-serif;
   line-height: 1.3;
 }
 
 p {
-  clear: both;
+
   font-family: 'Roboto', sans-serif;
   line-height: 1.3;
 }
@@ -59,7 +167,7 @@ button, html, input, select, textarea {
 .single_job_listing .application .apply-with-linkedin {
   font: bold 15px/normal 'Roboto', sans-serif;
   text-transform: uppercase;
-  background-color: #f08d3c;
+  background-color: #F08D3C;
   padding: 15px 50px;
   display: inline-block;
 }
@@ -78,11 +186,23 @@ input[type="submit"] {
 
 /*************** END FONT CHANGES ***************/
 
+/**This code handles the text for the employer logo section**/
+h2.robotologo {
+color: #ca5c5c;
+font-family: 'Roboto', sans-serif;
+font-weight: 300;
+font-size: 40px;
+margin-top: 40px;
+text-align: center;
+border-bottom: 2px #ca5c5c solid;
+padding-bottom: 20px;
+}
+
 @media (min-width: 992px) {
 
-.gb_widget_slider_hero .soliloquy-container .soliloquy-caption-title
+.jobify_widget_slider_hero .soliloquy-container .soliloquy-caption-title
 {
-font-size: 55px;
+font-size: 50px;
 font-weight: 300;
 text-align: center;
 position: relative;
@@ -90,7 +210,7 @@ margin-top: -200px;
 font-family: 'Roboto', sans-serif;  
 }
 
-.gb_widget_slider_hero .soliloquy-container .soliloquy-caption p {
+.jobify_widget_slider_hero .soliloquy-container .soliloquy-caption p {
  max-width: 100%;
 line-height: 36px;
 font-size: 28px;
@@ -110,7 +230,7 @@ h2.roboto {
   color: #2b2b2b;
   font-family: 'Roboto', sans-serif;
   font-weight: 300;
-  font-size: 55px;
+  font-size: 40px;
   margin-top: 40px;  
 }
 
@@ -119,8 +239,10 @@ p.roboto {
   color: #2b2b2b;
   font-family: 'Roboto', sans-serif;
   font-weight: 100;
-  font-size: 24px;
+  font-size: 20px;
 }
+
+
 
 /*Adjusts the placement of the pictures in the sections*/
 img.pictureadjust {
@@ -132,7 +254,7 @@ h2.robotolight {
   color: #fff;
   font-family: 'Roboto', sans-serif;
   font-weight: 300;
-  font-size:55px;
+  font-size:40px;
   margin-top: 40px;
 }
 
@@ -140,7 +262,34 @@ p.robotolight {
   color: #fff;
   font-family: 'Roboto', sans-serif;
   font-weight: 100;
-  font-size:24px;  
+  font-size:20px;  
+}
+
+h2.robotolight2 {
+  color: #fff;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+  font-size:26px;
+  margin-top: 40px;
+}
+
+/**Text button home page a code **/
+.signupbtn {
+  margin-top: 30px;
+border: 3px solid #FFF;
+border-radius: 4px;
+display: inline-block;
+border-color: #FFF;
+padding: 10px 30px 10px 30px;
+font-size: 1.5em;
+font-weight:400;
+font-family: 'Roboto', sans-serif;
+color:#fff;
+text-decoration:none;
+}
+
+.signupbtn:hover {
+text-decoration:none;
 }
 
 /*Show white boxes around menu items on 1024px+ width*/
@@ -150,6 +299,8 @@ p.robotolight {
   border-radius: 4px;
   display: inline-block;
 }
+
+
 }
 
 /*This will eat the image, currently not being used*/
@@ -159,57 +310,409 @@ img.eater {
 
 /*Mobile color css for sections*/
 @media (max-width:768px) {
-#text-3.homepage-widget.widget_text {
+#text-9.homepage-widget.widget_text {
   color: #2b2b2b;
-  background: #60dea1;
+  background: #54ad9c;
+  max-width: 100%;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+#text-12.homepage-widget {
+  background: #379CC0;
   max-width: 100%;
   margin-top: 20px;
   margin-bottom: 20px;
 }
 }
 
-/*Desktop color css for sections, full size responsive containers*/
+/*Desktop color css for sections*/
 @media (min-width: 992px) {
-#text-2.homepage-widget {
+#text-8.homepage-widget {
   background: #fff;
   max-width: 100%;
   padding: 70px 150px 70px 150px;
 }
-}
 
-@media (min-width: 992px) {
-#text-3.homepage-widget {
-  background: #60dea1;
+#text-9.homepage-widget {
+  background: #54ad9c;
   max-width: 100%;
   padding: 70px 150px 70px 150px;
 }
-}
 
-@media (min-width: 992px) {
-#text-4.homepage-widget {
+#text-10.homepage-widget {
   background: #fff;
   max-width: 100%;
   padding: 70px 150px 70px 150px;
 }
+
+#text-11.homepage-widget {
+  background: #fff;
+  max-width: 100%;
+  padding: 70px 150px 70px 150px;
+}
+
+#text-12.homepage-widget {
+  background: #379CC0;
+  max-width: 100%;
+  padding: 70px 150px 70px 150px;
+}
+
+#text-13.homepage-widget {
+  background: #fff;
+  max-width: 100%;
+  padding: 70px 150px 70px 150px;
+}
+
+#text-14.homepage-widget {
+  background: #fff;
+  max-width: 100%;
+  padding: 70px 150px 70px 150px;
+}
+
+#text-15.homepage-widget {
+  background: #1b1b1b;
+  max-width: 100%;
+  padding: 70px 150px 70px 150px;
+  background: url("https://gradberry.com/files/2015/02/signupbcg1.png") repeat fixed center; 
+}
+
+#text-16.homepage-widget {
+  background: #fff;
+  max-width: 100%;
+  padding: 70px 150px 70px 150px;
+}
+
 }
 
 /*Really big screens 20, 22, 24 inch*/
 @media (min-width: 1600px) {
-#text-2.homepage-widget {
-  background: #ffff;
-  max-width: 100%;
-  padding: 70px 400px 70px 400px;
-}
-
-#text-3.homepage-widget {
-  background: #60dea1;
-  max-width: 100%;
-  padding: 70px 400px 70px 400px;
-}
-
-#text-4.homepage-widget {
+#text-8.homepage-widget {
   background: #fff;
   max-width: 100%;
   padding: 70px 400px 70px 400px;
 }
+
+#text-9.homepage-widget {
+  background: #54ad9c;
+  max-width: 100%;
+  padding: 70px 400px 70px 400px;
+}
+
+#text-10.homepage-widget {
+  background: #fff;
+  max-width: 100%;
+  padding: 70px 400px 70px 400px;
+}
+
+#text-11.homepage-widget {
+  background: #fff;
+  max-width: 100%;
+  padding: 70px 400px 70px 400px;
+}
+
+#text-12.homepage-widget {
+  background: #379CC0;
+  max-width: 100%;
+  padding: 70px 400px 70px 400px;
+}
+
+#text-13.homepage-widget {
+  background: #fff;
+  max-width: 100%;
+  padding: 70px 400px 70px 400px;
+}
+
+#text-14.homepage-widget {
+  background: #fff;
+  max-width: 100%;
+  padding: 70px 400px 70px 400px;
+}
+
+#text-15.homepage-widget {
+  background: #1b1b1b;
+  max-width: 100%;
+  padding: 70px 400px 70px 400px;
+  background: url("https://gradberry.com/files/2015/02/signupbcg1.png") repeat fixed center; 
+}
+
+#text-16.homepage-widget {
+  background: #fff;
+  max-width: 100%;
+  padding: 70px 400px 70px 400px;
+}
+
+}
+
+/*Change the text on page header with images*/
+.page-title-white{font-size:26px;font-weight:400;color:#fff;padding:20px}
+
+
+/***Change the text for subtitles to white***/
+.page-subtitle-white {
+    font: 14px "Roboto",sans-serif;
+    color: #fff;
+}
+.page-subtitle-white a {
+    color: #fff;
+}
+.page-subtitle-white ul {
+    margin: 0px;
+    padding: 0px;
+    list-style: outside none none;
+}
+.page-subtitle-white li {
+    padding: 0px 20px 0px 10px;
+    border-right: 1px solid #fff;
+    display: inline-block;
+}
+.page-subtitle-white li.job-type {
+    text-align: center;
+    padding: 3px 10px;
+    border-right: 0px none;
+    display: inline-block;
+}
+.page-subtitle-white li:last-child {
+    border-right: 0px none;
+}
+/***End white color for subtitle***/
+
+/*This will change the page header for the candidate dashboard*/
+.page-header-candidate {
+    font: 400 38px 'Roboto',sans-serif;
+    text-align: center;
+    padding: 20px 0px;
+    border-bottom: 1px solid #CCC;
+    background-color: transparent;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.45), rgba(120, 0, 0, 0.45)), url("http://gradberry.com/files/2015/02/candidatedashboard.jpg");
+    background-repeat: repeat, no-repeat;
+    background-attachment: scroll, scroll;
+    background-position: 0% 0%, center bottom;
+    background-clip: border-box, border-box;
+    background-origin: padding-box, padding-box;
+    background-size: cover;
+}
+
+/*This will change the and header for the employer dashboard*/
+.page-header-employer {
+    font: 400 38px 'Roboto',sans-serif;
+    text-align: center;
+    padding: 20px 0px;
+    border-bottom: 1px solid #CCC;
+    background-color: transparent;
+    background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.60)), url("http://gradberry.com/files/2015/02/employerdashboard.jpg");
+    background-repeat: repeat, no-repeat;
+    background-attachment: scroll, scroll;
+    background-position: 0% 0%, center;
+    background-clip: border-box, border-box;
+    background-origin: padding-box, padding-box;
+    background-size: cover;
+}
+
+/*This will change the and header for the employer dashboard*/
+.page-header-singlejob {
+    font: 400 38px "Varela Round",sans-serif;
+    text-align: center;
+    padding: 20px 0px;
+    background: none repeat scroll 0% 0% #FAFAFA;
+    border-bottom: 1px solid #CCC;
+  	background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.60)), url("http://gradberry.com/files/2015/02/singlejob.jpg");
+    background-size: cover;
+}
+
+/*This controls the bounce animation for the chevron*/
+.animated { 
+    -webkit-animation-duration: 2s; 
+    animation-duration: 2s; 
+    -webkit-animation-fill-mode: both; 
+    animation-fill-mode: both; 
+    -webkit-animation-timing-function: ease-out; 
+    animation-timing-function: ease-out; 
+} 
+
+@-webkit-keyframes bounceInDown { 
+   0% { 
+       opacity: 0; 
+        -webkit-transform: translateY(-2000px); 
+    } 
+    60% { 
+        opacity: 1; 
+        -webkit-transform: translateY(30px); 
+    } 
+    80% { 
+        -webkit-transform: translateY(-10px); 
+    } 
+    100% { 
+        -webkit-transform: translateY(0); 
+    } 
+} 
+
+@keyframes bounceInDown { 
+    0% { 
+        opacity: 0; 
+        transform: translateY(-2000px); 
+    } 
+    60% { 
+        opacity: 1; 
+        transform: translateY(30px); 
+    } 
+    80% { 
+        transform: translateY(-10px); 
+    } 
+    100% { 
+        transform: translateY(0); 
+    } 
+} 
+
+.bounceInDown { 
+    -webkit-animation-name: bounceInDown; 
+    animation-name: bounceInDown; 
+}
+
+/**this hides the chevron display on mobile devices**/
+@media (max-width:768px) {
+.animated {
+  display: none; 
+}
+}
+
+
+/**This is custom CSS for the home page button in the slider**/
+
+#buttondiv {
+border: 3px solid #FFF;
+border-radius: 4px;
+display: inline-block;
+border-color: #FFF;
+padding: 10px 30px 10px 30px;
+font-size: 1.5em;
+}
+
+.btncol {
+  color:#fff;
+}
+
+/*CSS for the bottom signup button*/  
+#bottomsignup {
+    display: table;
+    width: 100%;
+}
+#bottomsignuprow {
+    display: table-row;
+  	width: 100%;
+}
+#bottomsignupcol1 {
+display: table-cell;
+float: left;
+width: 65%;
+}  
+#bottomsignupcol2 {
+display: table-cell;
+float: left;
+width: 35%;
+}
+h2.robotolightbot {
+  color: #fff;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+  font-size:26px;
+}
+.signupbtnbot {
+float: right;
+margin: 25px 0px;
+border: 3px solid #FFF;
+border-radius: 4px;
+display: inline-block;
+border-color: #FFF;
+padding: 10px 30px 10px 30px;
+font-size: 1.5em;
+font-weight:400;
+font-family: 'Roboto', sans-serif;
+color:#fff;
+text-decoration:none;
+}
+
+/*CSS for the bottom signup button (MOBILE)*/  
+@media (max-width:768px) {
+#text-15.homepage-widget {
+padding: 70px;
+}
+
+#bottomsignup {
+}
+#bottomsignuprow {
+}
+#bottomsignupcol1 {
+  display: none;
+}  
+#bottomsignupcol2 {
+  text-align: center;
+  display: table-cell;
+	float: left;
+	width: 100%;
+}
+h2.robotolightbot {
+  display: none;
+}
+.signupbtnbot {
+float: none;
+border: 3px solid #FFF;
+border-radius: 4px;
+display: inline-block;
+border-color: #FFF;
+padding: 10px 30px 10px 30px;
+font-size: 1.2em;
+font-weight:400;
+font-family: 'Roboto', sans-serif;
+color:#fff;
+text-decoration:none;
+}
+
+}
+
+/**CSS regular button styling**/
+.btnregstyling {
+text-decoration:underline;
+}
+
+/**Custom button with no margins**/
+.normalbtn {
+  margin-top: 30px;
+border: 3px solid #c23439;
+border-radius: 4px;
+display: inline-block;
+border-color: #c23439;
+padding: 10px 30px 10px 30px;
+font-size: 1.5em;
+font-weight:400;
+font-family: 'Roboto', sans-serif;
+color:#c23439;
+text-decoration:none;
+}
+
+.normalbtn:hover {
+text-decoration:none;
+border-color: #99be4f;
+  color:#99be4f;
+}
+
+/**Custom button with margins**/
+.normalbtnmrg {
+  margin-top: 30px;
+border: 2px solid #c23439;
+border-radius: 4px;
+display: inline-block;
+border-color: #c23439;
+padding: 10px 25px 10px 25px;
+font-size: 1.1em;
+font-weight:400;
+font-family: 'Roboto', sans-serif;
+color:#c23439;
+text-decoration:none;
+margin-right:20px;
+}
+
+.normalbtnmrg:hover {
+text-decoration:none;
+border-color: #99be4f;
+  color:#99be4f;
 }
