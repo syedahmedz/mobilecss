@@ -1,6 +1,52 @@
 /* Enter Your Custom CSS Here */
 
+/*Fixes contact form*/
+.gform_wrapper .top_label input.medium, .gform_wrapper .top_label select.medium {
+    width: 100%;
+}
+/********************/
+
+/*Make a line - used in talent profiile submit*/
+div.lineseparator {
+  clear: both;
+  border-bottom: 2px solid #818080;
+  margin-bottom: 20px;
+}
+
 /**trending skills widget**/
+
+div.textblock
+{
+  display:block;
+  padding: 5px 0px 5px 0px;
+}
+
+div.freebox
+{
+  color: #fff;
+  background-color: #59da6b;
+  display: inline;
+  border-radius: 2px;
+  padding: 2px 15px 2px 15px;
+  font-size: 14px;
+  margin: 0px 5px 0px 5px;
+  float:left;
+}
+
+div.sample
+{
+  color: #fff;
+  background-color: #448ccb;
+  display: inline;
+  border-radius: 2px;
+  padding: 2px 15px 2px 15px;
+  font-size: 14px;
+  margin: 0px 5px 0px 5px;
+  float:left;
+}
+
+
+
 
 div.trendingcont
 {
@@ -39,7 +85,6 @@ div.spacer {
 #gform_14{
     font-size: 16px;
 }
-
 }
 
 /* CSS for the resume buttons under each candidate*/
@@ -88,6 +133,9 @@ div .top-skills-resume {
   display: inline-block;
   background: #E86A6E;
 }
+
+
+
 
 /*Modifications to job-tags css*/
 job-tag {
@@ -716,3 +764,89 @@ text-decoration:none;
 border-color: #99be4f;
   color:#99be4f;
 }
+
+/*BEGIN CSS for top 3 skills and sponsorship for employer dashboard*/
+div .top-skills-resume-profile {
+  color: #FFF;
+  display: inline-block;
+  background: none repeat scroll 0% 0% #E86A6E;
+  font-size: 14px;
+  border-radius: 5px;
+  padding: 0px 12px;
+  margin: 0px 10px 0px 0px;
+}
+
+.sponsorshipprofile {
+  margin: 15px 0px 0px 0px;
+  
+}
+
+.threeskillsdiv {
+  display: inline-block;
+  margin-right: 0em;
+  float: right;
+}
+
+@media (max-width:768px) {
+.threeskillsdiv {
+  display: inline-block;
+  margin-right: 0em;
+}
+
+div .top-skills-resume-profile {
+  margin: 0px 0px 0px 10px;  
+}
+
+div.job-applications ul.job-applications li.job-application header .job-application-rating:before {
+  display: none;
+}
+
+.sponsorshipprofile {
+  display: inline-table;
+}
+}
+
+@media (max-width:375px) {
+div .threeskillsdiv {
+    width: 100%;
+    float: right; 
+  }
+div .top-skills-resume-profile {
+    display: inline block;
+    margin:10px 10px 10px 0px;
+}
+
+div.job-applications ul.job-applications li.job-application header .job-application-rating:before {
+  display: none;
+}
+
+div.job-applications ul.job-applications li.job-application footer ul.meta {
+    max-width: 100%;
+}
+}
+
+@media (max-width:374px) {
+div .threeskillsdiv {
+    width: 100%;
+    float: left; 
+  }
+div .top-skills-resume-profile {
+    display: inline-block;
+    margin:5px 5px 10px 0px;
+  	padding: 0px 1px 0px 1px;
+}
+
+div.job-applications ul.job-applications li.job-application header .job-application-rating:before {
+  display: none;
+}
+
+div .applicationslist {
+	text-align: center;  
+}
+
+div.job-applications ul.job-applications li.job-application footer ul.meta {
+    max-width: 100%;
+}
+}
+
+/*END CSS for top 3 skills and sponsorship for employer dashboard*/
