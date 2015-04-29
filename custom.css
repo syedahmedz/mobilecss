@@ -1,5 +1,15 @@
 /* Enter Your Custom CSS Here */
 
+/*containers for logo section*/
+
+#logocontext {
+  content-align:center;
+}
+
+#logocont {
+  display:inline;
+  padding:20px 40px 20px 40px;
+}
 
 p .topskillspadding {
   padding-top: 20px;
@@ -366,6 +376,7 @@ img.eater {
   float: right;  
 }
 
+/***************************Sections CSS********************************/
 /*Mobile color css for sections*/
 @media (max-width:768px) {
 #text-9.homepage-widget.widget_text {
@@ -381,6 +392,15 @@ img.eater {
   margin-top: 20px;
   margin-bottom: 20px;
 }
+
+#text-15.homepage-widget {
+  background: #1b1b1b;
+  max-width: 100%;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  background: url("https://gradberry.com/files/2015/02/signupbcg1.png") repeat fixed center; 
+}
+
 }
 
 /*Desktop color css for sections*/
@@ -437,7 +457,19 @@ img.eater {
 #text-16.homepage-widget {
   background: #fff;
   max-width: 100%;
-  padding: 70px 150px 70px 150px;
+  padding: 70px 150px 20px 150px;
+}
+
+#text-17.homepage-widget {
+  background: #fff;
+  max-width: 100%;
+  padding: 70px 150px 20px 150px;
+}
+
+#text-18.homepage-widget {
+  background: #fff;
+  max-width: 100%;
+  padding: 0px 150px 70px 150px;
 }
 
 }
@@ -497,6 +529,18 @@ img.eater {
   background: #fff;
   max-width: 100%;
   padding: 70px 400px 70px 400px;
+}
+
+#text-17.homepage-widget {
+  background: #fff;
+  max-width: 100%;
+  padding: 70px 400px 20px 400px;
+}
+
+#text-18.homepage-widget {
+  background: #fff;
+  max-width: 100%;
+  padding: 0px 400px 20px 400px;
 }
 
 }
