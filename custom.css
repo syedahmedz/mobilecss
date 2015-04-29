@@ -1,5 +1,15 @@
 /* Enter Your Custom CSS Here */
 
+
+p .topskillspadding {
+  padding-top: 20px;
+}
+
+
+div .topskillspadding {
+  padding-top: 20px;
+}
+
 /*Fixes contact form*/
 .gform_wrapper .top_label input.medium, .gform_wrapper .top_label select.medium {
     width: 100%;
@@ -183,7 +193,7 @@ button, html, input, select, textarea {
 
 .page-subtitle {
   font: normal 14px/normal 'Roboto', sans-serif;
-  color: #9a9b9e;
+  /*color: #9a9b9e;*/
   margin-top: -15px;
 }
 
@@ -558,13 +568,22 @@ img.eater {
 
 /*This will change the and header for the employer dashboard*/
 .page-header-singlejob {
-    font: 400 38px "Varela Round",sans-serif;
+    font: 400 38px 'Roboto',sans-serif;
     text-align: center;
     padding: 20px 0px;
     background: none repeat scroll 0% 0% #FAFAFA;
     border-bottom: 1px solid #CCC;
   	background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.60)), url("http://gradberry.com/files/2015/02/singlejob.jpg");
     background-size: cover;
+}
+.page-title-singlejob {
+    color: #fff; 
+}
+.page-subtitle-singlejob {
+	color: #fff;  
+}
+.page-subtitle-singlejob a{
+	color: #fff;  
 }
 
 /*This controls the bounce animation for the chevron*/
@@ -627,18 +646,42 @@ img.eater {
 /**This is custom CSS for the home page button in the slider**/
 
 #buttondiv {
-border: 3px solid #FFF;
+/*border: 3px solid #FFF;*/
 border-radius: 4px;
 display: inline-block;
 border-color: #FFF;
-padding: 10px 30px 10px 30px;
+padding: 15px 30px 15px 30px;
 font-size: 1.5em;
+background-color:#04CA7F;
 }
 
 .btncol {
   color:#fff;
 }
 
+#buttondiv:hover {
+  background-color:#279068;
+}
+
+#buttondiv2 {
+/*border: 3px solid #FFF;*/
+border-radius: 4px;
+display: inline-block;
+border-color: #FFF;
+padding: 15px 30px 15px 30px;
+font-size: 1.5em;
+background-color:#f49060;
+}
+
+#buttondiv2:hover {
+  background-color:#f26522;
+}
+
+#horizontalspace {
+  padding-left:20px;
+  padding-right:20px;
+  display:inline;
+}
 /*CSS for the bottom signup button*/  
 #bottomsignup {
     display: table;
@@ -784,7 +827,8 @@ div .top-skills-resume-profile {
 .threeskillsdiv {
   display: inline-block;
   margin-right: 0em;
-  float: right;
+  width: 100%;
+  text-align:right;
 }
 
 @media (max-width:768px) {
