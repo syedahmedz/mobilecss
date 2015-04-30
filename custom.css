@@ -6,9 +6,17 @@
   content-align:center;
 }
 
+@media (max-width:768px) {
+#logocontext {
+  text-align:center;
+  margin-left:5px;
+}
+}
+
+
 #logocont {
-  display:inline;
-  padding:20px 40px 20px 40px;
+  display:inline-block;
+  padding: 20px 40px 20px 0px;
 }
 
 p .topskillspadding {
@@ -252,6 +260,23 @@ input[type="submit"] {
     font: 700 14px 'Roboto', sans-serif;
 }
 
+
+@media (max-width:768px) {
+
+.homepage-widget-title {
+  font: 400 24px/normal 'roboto',sans-serif;
+  text-align: center;
+  color: #fff;
+  margin: 0 0 30px;
+  padding: 0;
+  font-family: roboto;
+  text-align: center;
+  background-color: rgb(140, 140, 140);
+  padding: 20px;
+}
+}
+
+
 /*************** END FONT CHANGES ***************/
 
 /**This code handles the text for the employer logo section**/
@@ -400,6 +425,14 @@ img.eater {
   margin-bottom: 20px;
   background: url("https://gradberry.com/files/2015/02/signupbcg1.png") repeat fixed center; 
 }
+
+#text-17.homepage-widget {
+  background: #fff;
+  max-width: 100%;
+  margin-top: 40px;
+  margin-bottom: 20px;
+}
+
 
 }
 
@@ -726,6 +759,28 @@ background-color:#f49060;
   padding-right:20px;
   display:inline;
 }
+
+@media (max-width:768px) {
+
+#buttondiv2 {
+display:none;
+}
+
+#buttondiv {
+/*border: 3px solid #FFF;*/
+border-radius: 4px;
+display: inline-block;
+border-color: #FFF;
+padding: 15px 30px 15px 30px;
+font-size: 0.8em;
+background-color:#04CA7F;
+margin-right: -35px;
+}
+
+}
+
+
+/**************************************************************************/
 /*CSS for the bottom signup button*/  
 #bottomsignup {
     display: table;
