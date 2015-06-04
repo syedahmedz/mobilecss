@@ -1,10 +1,80 @@
 /* Enter Your Custom CSS Here */
 
+/*CSS for employer dashboard "x" number of candidates button*/
+.employer_dash_button{
+	text-decoration: none;
+    	padding: 20px 40px;
+    	background: rgb(232, 104, 104);
+    	border-radius: 3px;
+    	font-weight:500;
+    	color: white;
+}
+.employer_dash_button:hover{
+	text-decoration: none;
+    	background: rgb(120, 20, 20);
+}
+
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 480px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: portrait) {
+ 
+    th[class="filled"],th[class="expires"],th[class="date"],
+  td[class="filled"],td[class="expires"],td[class="date"]{
+      	display:none;
+    	font-size: 8px;
+   	 	padding: 2px 5px;
+  }
+  tbody{
+  	font-size: 8px;
+  }
+  
+}
+
+/*CSS for relocation (Andrew)*/
+.fieldset-relocate_sf, .fieldset-relocate_la, .fieldset-relocate_bos, .fieldset-relocate_ny, .fieldset-relocate_austin {
+		border-left: 1px solid silver !important;
+		border-right: 1px solid silver !important;
+		margin: 0px !important;
+		font-size: 18px;
+		color: black;
+		font-weight: 900px;
+		padding: 0px 0px 0px 20px !important;
+	}
+	.fieldset-relocate_sf{
+		border-top: 1px solid silver !important;
+		border-top-right-radius: 5px;
+		border-top-left-radius: 5px;
+		padding-top: 10px !important;
+	}
+	.fieldset-relocate_austin{
+		border-bottom: 1px solid silver !important;
+		border-bottom-right-radius: 5px;
+		border-bottom-left-radius: 5px;
+		margin-bottom: 10px !important;
+		padding-bottom: 10px !important;
+	}
+
 div .halfcontainer {
   text-align:center;
 }
 
 /*containers for logo section*/
+
+#logocont {
+  display:inline-block;
+  padding: 20px 0px 20px 0px;
+  width: 13%;
+  height: 100%;
+  -webkit-filter: grayscale(100%);
+filter: grayscale(100%);
+}
+
+#logocont:hover {
+  -webkit-filter: grayscale(10%);
+filter: grayscale(10%);
+}
 
 #logocontext {
   text-align: center;
@@ -15,13 +85,15 @@ div .halfcontainer {
   text-align:center;
   margin-left:5px;
 }
-}
-
 
 #logocont {
   display:inline-block;
-  padding: 20px 40px 20px 0px;
+  padding: 20px 0px 20px 0px;
+  width: 30%;
+  height: 100%;
 }
+}
+
 
 p .topskillspadding {
   padding-top: 20px;
@@ -30,6 +102,18 @@ p .topskillspadding {
 
 div .topskillspadding {
   padding-top: 20px;
+}
+
+h1.logocont {
+  font-size: 30px;
+margin-bottom: 50px;
+font-family: "roboto";
+font-weight: 300;
+background-color: #cb5c5c;
+padding: 5px;
+color: #FFF;
+border-bottom: solid 5px #9E4545;
+text-align: center;
 }
 
 /*Fixes contact form*/
@@ -261,7 +345,8 @@ input[type="submit"] {
 }
 
 .nav-menu-primary li a, .nav-menu-primary ul li a {
-    font: 700 14px 'Roboto', sans-serif;
+    font: 500 14px 'Roboto', sans-serif;
+  text-transform: none;
 }
 
 
@@ -335,7 +420,7 @@ h2.roboto {
 
 /*This modifies the p text's font, color, and size*/
 p.roboto {
-  color: #2b2b2b;
+  color: #717171;
   font-family: 'Roboto', sans-serif;
   font-weight: 300;
   font-size: 20px;
@@ -624,7 +709,7 @@ img.eater {
     padding: 20px 0px;
     border-bottom: 1px solid #CCC;
     background-color: transparent;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.45), rgba(120, 0, 0, 0.45)), url("http://gradberry.com/files/2015/02/candidatedashboard.jpg");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.45), rgba(120, 0, 0, 0.45)), url("/files/2015/05/gradberrydefaultpurplebridge.png");
     background-repeat: repeat, no-repeat;
     background-attachment: scroll, scroll;
     background-position: 0% 0%, center bottom;
@@ -640,7 +725,7 @@ img.eater {
     padding: 20px 0px;
     border-bottom: 1px solid #CCC;
     background-color: transparent;
-    background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.60)), url("http://gradberry.com/files/2015/02/employerdashboard.jpg");
+    background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.60)), url("/files/2015/05/gradberrydefaultgreen.png");
     background-repeat: repeat, no-repeat;
     background-attachment: scroll, scroll;
     background-position: 0% 0%, center;
@@ -656,7 +741,7 @@ img.eater {
     padding: 20px 0px;
     background: none repeat scroll 0% 0% #FAFAFA;
     border-bottom: 1px solid #CCC;
-  	background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.60)), url("http://gradberry.com/files/2015/02/singlejob.jpg");
+  	background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.60)), url("/files/2015/05/gradberrydefaultpurple.png");
     background-size: cover;
 }
 .page-title-singlejob {
@@ -999,3 +1084,139 @@ div.job-applications ul.job-applications li.job-application footer ul.meta {
 }
 
 /*END CSS for top 3 skills and sponsorship for employer dashboard*/
+
+/**
+STICKY HEADER BEGIN
+**/
+.site-header {
+  background: #000;
+  position: fixed;
+  width: 100%;
+  margin-bottom: 500px;
+}
+#main{
+	margin-top: 95px;
+}
+@media (max-width: 740px) {
+#main{
+	margin-top: 75px;
+}
+}
+/**
+STICKY HEADER END
+**/
+p{
+ font-weight: 300; 
+}
+.page-header-hidden {
+ display: none !important; 
+}
+.page-title-hidden {
+ display: none !important; 
+}
+
+/* Portrait and Landscape - Modify font size of soliloquy on mobile */
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 667px) 
+  and (-webkit-min-device-pixel-ratio: 2) { 
+	.jobify_widget_slider .soliloquy-container .soliloquy-caption-title, .jobify_widget_slider_hero .soliloquy-container .soliloquy-caption-title{
+   	 font-size: 20px;
+  }
+}
+
+/* Icon for Create an Account */
+i[class="icon-create-square"]::before{
+ content: '\e84e';
+}
+
+/* Portrait */
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 480px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: portrait) {
+  		td[class="td-candidate-recommendations"]{
+   		padding: 15px 5px 15px 0px;
+    	font-size: 14px;
+  }
+  
+  	th[class="resume-category"], th[class="status"], td[class="resume-category"], td[class="status"],
+  	th[class="candidate-title"], td[class="candidate-title"], th[class="location"], 
+  	td[class="location"], th[class="date"], td[class="date"]{
+    	display:none;
+  	}
+}
+
+/* Form CSS gradberry-subscription */
+.gform_wrapper div.validation_error{
+ 	color: #D94955;
+  	font-weight: 700;
+    border: none;
+  	padding: 1em 25px;
+  	width: 100%;
+  	font-size: 1em;
+}
+
+.gform_wrapper li.gfield.gfield_error{
+  background-color: white;
+  border: none;
+}
+.gform_wrapper .gfield_error .gfield_label, .gform_wrapper .gfield_required, .gform_wrapper li.gfield_error div.ginput_complex.ginput_container label, .gform_wrapper .validation_message, .gform_wrapper li.gfield_error ul.gfield_radio, .gform_wrapper li.gfield_error ul.gfield_checkbox{
+ 	color: #D94955; 
+}
+
+#gform_submit_button_23{
+  font: 700 18px Montserrat,sans-serif;
+}
+#gf_coupon_button{
+	font: 400 17px "Varela Round",Helvetica,sans-serif;
+	padding: 0.4em 20px;
+}  
+#gf_coupon_button:hover{
+  background: white;
+}
+
+/* Tabby CSS */
+.responsive-tabs-wrapper ul.responsive-tabs__list li{
+text-align: center;
+}
+
+/*containers for press section*/
+
+#presscont {
+  display:inline-block;
+  padding: 10px 0px 10px 0px;
+  width: 19%;
+  height: 100%;
+  text-align: center;
+  -webkit-filter: grayscale(100%);
+filter: grayscale(100%);
+}
+
+#presscont:hover {
+  -webkit-filter: grayscale(10%);
+filter: grayscale(10%);
+}
+  
+
+h1.pressont {
+  font-size: 30px;
+margin-bottom: 50px;
+font-family: "roboto";
+font-weight: 300;
+background-color: #4A8ADE;
+padding: 5px;
+color: #FFF;
+border-bottom: solid 5px #376AAD;
+text-align: center;
+}
+
+@media (max-width:768px) {
+#presscont {
+  display:inline-block;
+  padding: 10px 0px 10px 0px;
+  width: 100%;
+  height: 100%;
+}
+}
