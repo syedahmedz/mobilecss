@@ -108,11 +108,10 @@ h1.logocont {
   font-size: 30px;
 margin-bottom: 50px;
 font-family: "roboto";
-font-weight: 300;
-background-color: #cb5c5c;
+font-weight: 400;
+background-color: #5E5E5E;
 padding: 5px;
 color: #FFF;
-border-bottom: solid 5px #9E4545;
 text-align: center;
 }
 
@@ -518,7 +517,7 @@ img.eater {
 }
 
 #text-17.homepage-widget {
-  background: #fff;
+  background: #cb5c5c;
   max-width: 100%;
   margin-top: 40px;
   margin-bottom: 20px;
@@ -581,13 +580,13 @@ img.eater {
 #text-16.homepage-widget {
   background: #fff;
   max-width: 100%;
-  padding: 70px 150px 20px 150px;
+  padding: 70px 150px 100px;
 }
 
 #text-17.homepage-widget {
-  background: #fff;
+  background: #5E5E5E;
   max-width: 100%;
-  padding: 70px 150px 20px 150px;
+  padding: 20px 100px 20px;
 }
 
 #text-18.homepage-widget {
@@ -656,9 +655,9 @@ img.eater {
 }
 
 #text-17.homepage-widget {
-  background: #fff;
+  background: #5E5E5E;
   max-width: 100%;
-  padding: 70px 400px 20px 400px;
+  padding: 20px 300px 20px 300px;
 }
 
 #text-18.homepage-widget {
