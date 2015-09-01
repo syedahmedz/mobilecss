@@ -484,6 +484,20 @@ h2.robotolightemp {
     margin-top: 40px;
 }
 
+h2.robotoemp {
+color: #545454;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 30px;
+    margin-top: 40px;
+}
+
+p.robotoemp {
+    color: #717171;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-size: 18px;
+}
 
 /**Text button home page a code **/
 .signupbtn {
