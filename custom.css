@@ -1,5 +1,17 @@
 /* Enter Your Custom CSS Here */
 
+@media (min-width: 768px)
+.testimonial-slider-wrap {
+    padding: 0 20px !important;
+}
+
+.testimonial-slider-wrap {
+    margin: 20px 0 0;
+    padding: 0 30px;
+    position: relative;
+}
+
+
 /*CSS for employer dashboard "x" number of candidates button*/
 .employer_dash_button{
 	text-decoration: none;
@@ -456,6 +468,14 @@ h2.robotolight2 {
   margin-top: 40px;
 }
 
+p.robotolightemp {
+    color: #FFF;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    letter-spacing: 0.07em;  
+}
+
 /**Text button home page a code **/
 .signupbtn {
   margin-top: 30px;
@@ -595,6 +615,19 @@ img.eater {
   padding: 0px 150px 70px 150px;
 }
 
+#text-23.homepage-widget {
+background: #005b7f; /* Old browsers */
+background: -moz-linear-gradient(-45deg,  #005b7f 0%, #2989d8 100%, #207cca 100%, #639bb7 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, right bottom, color-stop(0%,#005b7f), color-stop(100%,#2989d8), color-stop(100%,#207cca), color-stop(100%,#639bb7)); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(-45deg,  #005b7f 0%,#2989d8 100%,#207cca 100%,#639bb7 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(-45deg,  #005b7f 0%,#2989d8 100%,#207cca 100%,#639bb7 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(-45deg,  #005b7f 0%,#2989d8 100%,#207cca 100%,#639bb7 100%); /* IE10+ */
+background: linear-gradient(135deg,  #005b7f 0%,#2989d8 100%,#207cca 100%,#639bb7 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#005b7f', endColorstr='#639bb7',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+  max-width: 100%;
+  padding: 0px 150px 70px 150px;
+}
+
 }
 
 /*Really big screens 20, 22, 24 inch*/
@@ -666,6 +699,19 @@ img.eater {
   padding: 0px 400px 20px 400px;
 }
 
+#text-23.homepage-widget {
+background: #005b7f; /* Old browsers */
+background: -moz-linear-gradient(-45deg,  #005b7f 0%, #2989d8 100%, #207cca 100%, #639bb7 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, right bottom, color-stop(0%,#005b7f), color-stop(100%,#2989d8), color-stop(100%,#207cca), color-stop(100%,#639bb7)); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(-45deg,  #005b7f 0%,#2989d8 100%,#207cca 100%,#639bb7 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(-45deg,  #005b7f 0%,#2989d8 100%,#207cca 100%,#639bb7 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(-45deg,  #005b7f 0%,#2989d8 100%,#207cca 100%,#639bb7 100%); /* IE10+ */
+background: linear-gradient(135deg,  #005b7f 0%,#2989d8 100%,#207cca 100%,#639bb7 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#005b7f', endColorstr='#639bb7',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+  max-width: 100%;
+  padding: 80px 380px 80px 380px;
+}
+
 }
 
 /*Change the text on page header with images*/
@@ -732,6 +778,7 @@ img.eater {
     background-origin: padding-box, padding-box;
     background-size: cover;
 }
+
 
 /*This will change the and header for the employer dashboard*/
 .page-header-singlejob {
@@ -1358,3 +1405,28 @@ text-decoration: none;
 white-space: nowrap;
 line-height: 24px;
 }
+
+.page-header-pricing {
+    font: 500 45px 'Roboto',sans-serif;
+    text-align: center;
+    padding: 180px 0px;
+    border-bottom: 1px solid #CCC;
+    background-color: transparent;
+    background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.60)), url("https://gradberry.com/files/2015/08/teamwork1.jpg");
+    background-repeat: repeat, no-repeat;
+    background-attachment: scroll, scroll;
+    background-position: 0% 0%, center;
+    background-clip: border-box, border-box;
+    background-origin: padding-box, padding-box;
+    background-size: cover;
+    margin-top: -100px;
+    padding-bottom: 120px;
+}
+
+.page-title-white2 {
+    font-size: 36px;
+    font-weight: 400;
+    color: #fff;
+    padding: 20px;
+}
+
