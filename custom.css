@@ -498,6 +498,13 @@ p.robotoemp {
     font-size: 18px;
 }
 
+p.robotsech {
+  color: #ED8B64;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600;
+    font-size: 24px;
+}
+  
 /**Text button home page a code **/
 .signupbtn {
   margin-top: 30px;
