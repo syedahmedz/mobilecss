@@ -1466,3 +1466,20 @@ line-height: 24px;
 #input_7_8 div textarea {
 	height: 20em;  
 }
+
+#icontextbox {
+  display: inline-block;
+  vertical-align: bottom;
+  padding-bottom: 15px;
+}
+
+p.boxalign {
+    display: inline-block;
+    vertical-align: bottom;
+    color: #545454;
+    margin-bottom: 15px;
+    margin-left: 10px;
+    font-size: 18px;
+    font-weight: 500;
+    font-family: roboto;
+}
