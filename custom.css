@@ -472,14 +472,14 @@ p.robotolightemp {
     color: #FFF;
     font-family: 'Roboto', sans-serif;
     font-weight: 300;
-    font-size: 18px;
+    font-size: 1.05em;
 }
 
 h2.robotolightemp {
     color: #fff;
     font-family: 'Roboto', sans-serif;
     font-weight: 500;
-    font-size: 35px;
+    font-size: 1.8em;
     margin-top: 40px;
 }
 
@@ -656,6 +656,14 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#005b7f', end
   max-width: 100%;
   padding: 0px 150px 70px 150px;
 }
+
+/*#text-26.homepage-widget {
+  background:transparent url("http://gradberry.com/files/2015/09/testimonials.png") repeat scroll 0% 20%;
+  max-width: 100%;
+  padding: 0px 150px 70px 150px;
+    /*background-position-y: -210px;
+    background-position-x: -40px;
+}*/
 
 }
 
@@ -1482,4 +1490,23 @@ p.boxalign {
     font-size: 18px;
     font-weight: 500;
     font-family: roboto;
+}
+
+p.blockquote {
+  font-size:20px;
+  font-weight:500;
+  font-family:roboto;
+}
+
+.tmls_images_pagination .tmls_paginationContainer .tmls_image_container {
+    margin: 7px;
+    display: inline-block;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+}
+
+.tmls_images_pagination.medium_image .tmls_paginationContainer .tmls_image {
+    width: 120px;
+    height: 120px;
 }
